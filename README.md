@@ -4,15 +4,21 @@ A powerful, terminal-based manager for your Stremio addon collections.
 
 Storemio is a feature-rich, cross-platform TUI (Text-based User Interface) application built with Python. It's designed to give you complete control over your Stremio addon configurations across multiple accounts, offering features like profile mirroring, backups, and detailed addon management that go beyond the official Stremio app.
 
+<table>
+  <tr>
+    <td><img width="280" alt="image" src="https://github.com/user-attachments/assets/4d73c488-32d3-4479-9854-578d760ec988" /></td>
+    <td><img width="280" alt="image" src="https://github.com/user-attachments/assets/e3549f1e-be41-4a9c-92be-c995b79e797a" /></td>
+    <td><img width="280" alt="image" src="https://github.com/user-attachments/assets/2563eca0-69b4-4889-ae83-a67ed1bce22c" /></td>
+  </tr>
+</table>
+
 ## ✨ Key Features
 
 -   **🚀 Integrated Stremio Launcher**: Launch the Stremio Web UI in a dedicated window for any of your managed profiles directly from the app. Storemio automatically handles creating isolated browser profiles to keep your accounts separate.
--   **👤 Multi-Profile Management**: Add and manage multiple Stremio accounts
+-   **👤 Multi-Profile Management**: Add and manage multiple Stremio accounts.
 -   **🔧 Granular Addon Control**: Go beyond simple installation with fine-tuned management:
-
     -   **Reorder Addons**: Change the priority of your entire addon list to control how content appears in Stremio.
     -   **Advanced Catalog Management**:
-
         -   Selectively enable or disable specific catalogs within any addon.
         -   Reorder the catalogs inside an addon to prioritize your preferred content selection.
     -   **Rename Addons**: Give addons custom names for clarity.
@@ -25,21 +31,22 @@ Storemio is a feature-rich, cross-platform TUI (Text-based User Interface) appli
 
 There are two ways to get Storemio running on your system.
 
-### Option 1: From a Pre-built Executable 
+### Option 1: From a Pre-built Executable
 
 You can find pre-built, single-file executables for Windows on the Releases page of this repository. Just download the latest version and run it.
 
-    ⚠️ False Positive Warning
-    Some antivirus programs may flag the pre-built executable as a potential threat. This is a common false positive for applications created with PyInstaller, which bundles all necessary files into a single .exe.
+> ⚠️ **False Positive Warning**
+> Some antivirus programs may flag the pre-built executable as a potential threat. This is a common false positive for applications created with PyInstaller, which bundles all necessary files into a single .exe.
+>
+> The code is fully open-source for you to review. If you have any concerns, please check the source code and build the executable yourself using the instructions below.
 
-    The code is fully open-source for you to review. If you have any concerns, please check the source code and build the executable yourself using the instructions below.
 ### Option 2: Running from Source
 
 If you have Python installed, you can run Storemio directly from the source code.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/CmdPrmpt/Storemio
+    git clone [https://github.com/CmdPrmpt/Storemio](https://github.com/CmdPrmpt/Storemio)
     cd Storemio
     ```
 
