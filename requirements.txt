@@ -1,0 +1,4 @@
+requests
+pywebview
+pyperclip
+windows-curses; sys_platform == 'win32'
