@@ -7,18 +7,18 @@ Storemio is a feature-rich, cross-platform TUI (Text-based User Interface) appli
 ## ✨ Key Features
 
 -   **🚀 Integrated Stremio Launcher**: Launch the Stremio Web UI in a dedicated window for any of your managed profiles directly from the app. Storemio automatically handles creating isolated browser profiles to keep your accounts separate.
--   **👤 Multi-Profile Management**: Add and manage multiple Stremio accounts, each with its own isolated settings and addon collection.
+-   **👤 Multi-Profile Management**: Add and manage multiple Stremio accounts
 -   **🔧 Granular Addon Control**: Go beyond simple installation with fine-tuned management:
 
     -   **Reorder Addons**: Change the priority of your entire addon list to control how content appears in Stremio.
     -   **Advanced Catalog Management**:
 
         -   Selectively enable or disable specific catalogs within any addon.
-        -   Reorder the catalogs inside an addon to prioritize your preferred content sources.
+        -   Reorder the catalogs inside an addon to prioritize your preferred content selection.
     -   **Rename Addons**: Give addons custom names for clarity.
-    -   **Clone Addons**: Quickly copy a singular addon to the profile(s) of your choice.
--   **🔄 Profile Mirroring**: Designate a "master" profile. Storemio will automatically keep other "mirrored" profiles in perfect sync with the master's addon list, ideal for managing family accounts or multiple devices.
--   **💾 Backup & Restore**: Create timestamped snapshots of a profile's addon setup. You can easily restore a previous configuration at any time, protecting you from bad addon updates or accidental changes.
+    -   **Clone Addons**: Quickly copy the selected addon to the profile(s) of your choice.
+-   **🔄 Profile Mirroring**: Designate a "master" profile. Storemio will automatically keep other "mirrored" profiles in perfect sync with the master account's addons, ideal for managing family accounts or multiple devices.
+-   **💾 Backup & Restore**: Create timestamped snapshots of a profile's addon setup. You can easily restore a previous configuration at any time, protecting you from accidental changes.
 -   **💻 Modern Terminal UI**: A fast, responsive, and keyboard-driven interface built with curses that works great in modern terminals on Windows, macOS, and Linux.
 
 ## 🚀 Getting Started
