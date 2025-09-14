@@ -39,8 +39,8 @@ If you have Python installed, you can run Storemio directly from the source code
 
     Clone the repository:
 
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
-    cd YOUR_REPOSITORY
+    git clone [https://github.com/CmdPrmpt/Storemio.git](https://github.com/CmdPrmpt/Storemio.git)
+    cd Storemio
 
     Create a virtual environment (recommended):
 
